@@ -1,0 +1,2 @@
+# PrimeString
+Codewars/Prime String
