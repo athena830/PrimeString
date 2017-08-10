@@ -16,13 +16,6 @@ namespace PrimeString
         }
 
         [Test]
-        public void Input_x_Should_Be_True()
-        {
-            Assert_Should_Be_PrimeString("x");
-        }
-
-
-        [Test]
         public void Input_abc_Should_Be_True()
         {
             Assert_Should_Be_PrimeString("abc");
@@ -35,21 +28,9 @@ namespace PrimeString
         }
 
         [Test]
-        public void Input_abba_Should_Be_True()
-        {
-            Assert_Should_Be_PrimeString("abba");
-        }
-
-        [Test]
         public void Input_abab_Should_Be_False()
         {
             Assert_Should_Not_Be_PrimeString("abab");
-        }
-
-        [Test]
-        public void Input_aaaa_Should_Be_False()
-        {
-            Assert_Should_Not_Be_PrimeString("aaaa");
         }
 
         [Test]
